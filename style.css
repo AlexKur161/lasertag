@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Autonomous';
-  src:  url('/fonts/ttautonomoustrl-regular.woff2');
+  src:  url('fonts/ttautonomoustrl-regular.woff2');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'PHGTL';
-  src:  url('/fonts/PHGTL.woff2');
+  src:  url('fonts/PHGTL.woff2');
   font-weight: 400;
   font-style: normal;
 }
@@ -22,7 +22,7 @@
   color: rgba(0, 255, 127, 1);
 }
 .main-bg{
-  background-image: url('/img/main-bg.png');
+  background-image: url('img/main-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -118,10 +118,10 @@
   clip-path: polygon(58% 0, 100% 0, 100% 88%, 94% 100%, 0 100%, 0 13%, 5% 0);
 }
 .greenteam-win{
-  background-image: url('/img/green-win.svg');
+  background-image: url('img/green-win.svg');
 }
 .yellowteam-win{
-  background-image: url('/img/yellow-win.svg');
+  background-image: url('img/yellow-win.svg');
 }
 .team-win {
   font-family: PHGTL;
