@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Autonomous';
+  src:  url('/fonts/ttautonomoustrl-regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PHGTL';
+  src:  url('/fonts/PHGTL.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.yellow-txt{
+  color: rgba(255, 255, 0, 1);
+}
+.green-txt{
+  color: rgba(0, 255, 127, 1);
+}
+.main-bg{
+  background-image: url('/img/main-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 40px;
+}
+.wrapper-tablo {
+  height: 107px;
+  max-width: 772px;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+}
+.wrapper-score {
+  width: 98px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-score-green{
+  background: #00FF7F;
+}
+.wrapper-score-yellow{
+  background: #FFFF00;
+}
+.txt-score{
+  font-family: PHGTL;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+}
+.wrapper-nameteam{
+  width: 230px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-time{
+  width: 116px;
+  background: #1D1D1D;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt-nameteam{
+  font-family: PHGTL;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+.time-txt{
+  font-family: PHGTL;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.round-txt{
+  position: absolute;
+  bottom: 10px;
+  font-family: Autonomous;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+}
+.line-time{
+  position: absolute;
+  bottom: 0px;
+}
+.left-score{
+  clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 5%, 100% 100%, 95% 100%, 5% 100%, 100% 100%, 61% 100%, 0% 75%);
+}
+.right-score{
+  clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 5%, 100% 100%, 100% 75%, 30% 105%, 30% 100%, 100% 100%, 0% 100%);
+}
+
+.wrapper-win {
+  width: 390px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 70px;
+  background: #000000e0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(58% 0, 100% 0, 100% 88%, 94% 100%, 0 100%, 0 13%, 5% 0);
+}
+.greenteam-win{
+  background-image: url('/img/green-win.svg');
+}
+.yellowteam-win{
+  background-image: url('/img/yellow-win.svg');
+}
+.team-win {
+  font-family: PHGTL;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.txt-round-win {
+  font-family: Autonomous;
+  color: #fff;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.wrapper-left-listplayer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 380px;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+.wrapper-right-listplayer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+  width: 380px;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+.wrapper-player {
+  height: 86px;
+  width: 100%;
+  position: relative;
+  padding: 20px 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper-player-green{
+  background: linear-gradient(90deg, rgba(0,153,76,0.9640231092436975) 0%, rgba(0,0,0,0.8539390756302521) 36%);
+  clip-path: polygon(95% 0, 100% 15%, 100% 91%, 100% 100%, 0 100%, 0 0, 35% 0);
+}
+.wrapper-player-yellow{
+  background: linear-gradient(90deg, rgba(0,0,0,0.8539390756302521) 61%, rgba(255,255,0,0.6979166666666667) 93%);
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 20%, 5% 0);
+  margin: right;
+}
+.line-hp {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+}
+.line-hp-green {
+  background: rgba(0, 255, 127, 1);
+}
+.line-hp-yellow {
+  background: #FFFF00;
+  left: auto;
+  right: 0;
+}
+.name-player {
+  font-family: PHGTL;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+.wrapper-statistics-player {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+.reverse-statistics-player{
+  justify-content: end;
+}
+.homicides-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.homicides-number {
+  font-family: Autonomous;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+.deaths-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.deaths-number {
+  font-family: Autonomous;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+}
+.hp-player {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  min-width: 78px;
+  justify-content: end;
+}
+.number-hp {
+  font-family: PHGTL;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+.hp-icon {
+  width: 14px;
+  height: 14px;
+}
+.homicides-icon{
+  width: 17px;
+  height: 17px;
+}
+.death-icon{
+  width: 15px;
+  height: 15px;
+}
+.player-died{
+  width: 224px;
+}
+.player-died .hp-player{
+  display: none;
+}
+.wrapper-player-green.player-died {
+  background: linear-gradient(90deg, rgba(64,63,62,0.9220063025210083) 25%, rgba(7,6,7,0.9023984593837535) 61%);
+}
+.wrapper-player-yellow.player-died {
+  background: linear-gradient(90deg, rgba(7,6,7,0.9023984593837535) 61%, rgba(64,63,62,0.9220063025210083) 25%);
+}
+.player-died .line-hp{
+  display: none;
+}
+.wrapper-table{
+  width: 1162px;
+  height: 444px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000e0;
+  clip-path: polygon(6% 0, 100% 0, 100% 87%, 93% 100%, 0 100%, 0 13%);
+  padding: 65px;
+  z-index: 9999;
+}
+.score-table-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.score-stat {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+.flex-score-stat{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.score-stat-nick {
+  width: 120px;
+  display: flex;
+  justify-content: start;
+}
+.score-stat-txt {
+    font-family: PHGTL;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+.flex-player-stat{
+  display: flex;
+  gap: 10px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid rgb(98 98 98 / 55%);
+}
+.player-stat-txt{
+  color: #fff;
+  font-family: PHGTL;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.score-mini-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.score-mini-wrapper .flex-player-stat:last-child{
+  border-bottom: none;
+}

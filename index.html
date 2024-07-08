@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lasertag</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="main-bg">
+      <div class="wrapper-tablo">
+        <div class="wrapper-score left-score wrapper-score-green">
+          <p class="txt-score">0</p>
+        </div>
+        <div class="wrapper-nameteam"><p class="txt-nameteam">Team one</p></div>
+        <div class="wrapper-time">
+          <p class="time-txt">2:57</p>
+          <p class="round-txt">Round 1</p>
+          <svg class="line-time" xmlns="http://www.w3.org/2000/svg" width="116" height="7" viewBox="0 0 116 7" fill="none">
+            <g clip-path="url(#clip0_183_225)">
+            <rect width="116" height="7" fill="black"/>
+            <path d="M0 0H116L109.132 7H8.01316L0 0Z" fill="#00FF7F"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_183_225">
+            <rect width="116" height="7" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+        </div>
+        <div class="wrapper-nameteam"><p class="txt-nameteam">Team two</p> </div>
+        <div class="wrapper-score right-score wrapper-score-yellow">
+          <p class="txt-score">13</p>
+        </div>
+      </div>
+      <!-- Если победила команда зеленых повесить класс greenteam-win.
+      Если победила команда желтых повесить класс yellowteam-win -->
+      <div class="wrapper-win greenteam-win">
+        <div class="discription-win">
+          <p class="team-win">Team one</p>
+          <p class="txt-round-win">Выиграла раунд</p>
+        </div>
+      </div>
+
+      <div class="wrapper-left-listplayer">
+        <!-- если игрок умер повесить класс player-died -->
+        <div class="wrapper-player wrapper-player-green player-died">
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="hp-player">
+            <p class="number-hp">30</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div style="width: 30%;" class="line-hp line-hp-green"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-green player-died">
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="line-hp line-hp-green"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-green">
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="line-hp line-hp-green"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-green">
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="line-hp line-hp-green"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-green">
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="line-hp line-hp-green"></div>
+        </div>
+      </div>
+
+      <div class="wrapper-right-listplayer">
+        <div class="wrapper-player wrapper-player-yellow">
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player reverse-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="line-hp line-hp-yellow"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-yellow player-died">
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player reverse-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="line-hp line-hp-yellow"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-yellow">
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player reverse-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="line-hp line-hp-yellow"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-yellow">
+          <div class="hp-player">
+            <p class="number-hp">100</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player reverse-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div class="line-hp line-hp-yellow"></div>
+        </div>
+        <div class="wrapper-player wrapper-player-yellow">
+          <div class="hp-player">
+            <p class="number-hp">69</p>
+            <img src="/img/plus.svg" alt="hp" class="hp-icon">
+          </div>
+          <div class="discription-player">
+            <p class="name-player">Nickname</p>
+            <div class="wrapper-statistics-player reverse-statistics-player">
+              <div class="homicides-wrapper">
+                <img src="/img/gun.png" alt="homicides" class="homicides-icon">
+                <p class="homicides-number">15</p>
+              </div>
+              <div class="deaths-wrapper">
+                <img src="/img/human-skull.png" alt="homicides" class="deaths-icon">
+                <p class="deaths-number">30</p>
+              </div>
+            </div>
+          </div>
+          <div style="width: 69%;" class="line-hp line-hp-yellow"></div>
+        </div>
+      </div>
+      <div class="wrapper-table">
+        <div class="score-table-wrapper">
+          <div class="score-mini-wrapper">
+            <div class="flex-score-stat">
+              <div class="score-stat score-stat-nick"><p class="score-stat-txt green-txt">Nickname</p></div>
+              <div class="score-stat"><p class="score-stat-txt green-txt">kill</p></div>
+              <div class="score-stat"><p class="score-stat-txt green-txt">death</p></div>
+              <div class="score-stat"><p class="score-stat-txt green-txt">dmg</p></div>
+              <div class="score-stat"><p class="score-stat-txt green-txt">hit</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+          </div>
+          <div class="score-mini-wrapper">
+            <div class="flex-score-stat">
+              <div class="score-stat score-stat-nick"><p class="score-stat-txt yellow-txt">Nickname</p></div>
+              <div class="score-stat"><p class="score-stat-txt yellow-txt">kill</p></div>
+              <div class="score-stat"><p class="score-stat-txt yellow-txt">death</p></div>
+              <div class="score-stat"><p class="score-stat-txt yellow-txt">dmg</p></div>
+              <div class="score-stat"><p class="score-stat-txt yellow-txt">hit</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+            <div class="flex-player-stat">
+              <div class="score-stat score-stat-nick"><p class="player-stat-txt">_xdx_</p></div>
+              <div class="score-stat"><p class="player-stat-txt">10</p></div>
+              <div class="score-stat"><p class="player-stat-txt">2</p></div>
+              <div class="score-stat"><p class="player-stat-txt">100</p></div>
+              <div class="score-stat"><p class="player-stat-txt">30%</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
