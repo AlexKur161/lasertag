@@ -271,6 +271,7 @@
 }
 .wrapper-player-yellow.player-died {
   background: linear-gradient(90deg, rgba(7,6,7,0.9023984593837535) 61%, rgba(64,63,62,0.9220063025210083) 25%);
+  background: linear-gradient(90deg,  rgba(7,6,7,0.9023984593837535) 25%, rgba(64,63,62,0.9220063025210083) 61%);
 }
 .player-died .line-hp{
   display: none;
