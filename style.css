@@ -335,3 +335,55 @@
 .score-mini-wrapper .flex-player-stat:last-child{
   border-bottom: none;
 }
+.kill-flex-wrapper {
+  position: absolute;
+  right: 64px;
+  top: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.kill-player-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000000e0;
+  width: 320px;
+  height: 45px;
+  padding: 15px 26px;
+  clip-path: polygon(58% 0, 100% 0, 100% 72%, 95% 100%, 0 100%, 0 26%, 5% 0);
+}
+.kill-txt-player {
+  font-family: Autonomous;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+}
+.kill-icon {
+  width: 26px;
+  height: 26px;
+}
+.bomb-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background: #000000e0;
+  width: 290px;
+  height: 78px;
+  top: 210px;
+  clip-path: polygon(58% 0, 100% 0, 100% 78%, 94% 100%, 0 100%, 0 21%, 5% 0);
+}
+.bomb-icon {
+}
+.bomb-txt {
+  font-family: Autonomous;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  max-width: 142px;
+  color: #fff;
+}

@@ -36,7 +36,7 @@
       </div>
       <!-- Если победила команда зеленых повесить класс greenteam-win.
       Если победила команда желтых повесить класс yellowteam-win -->
-      <div class="wrapper-win greenteam-win">
+      <div style="display: none;" class="wrapper-win greenteam-win">
         <div class="discription-win">
           <p class="team-win">Team one</p>
           <p class="txt-round-win">Выиграла раунд</p>
@@ -249,7 +249,7 @@
           <div style="width: 69%;" class="line-hp line-hp-yellow"></div>
         </div>
       </div>
-      <div class="wrapper-table">
+      <div style="display: none;" class="wrapper-table">
         <div class="score-table-wrapper">
           <div class="score-mini-wrapper">
             <div class="flex-score-stat">
@@ -340,6 +340,38 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- последние правки -->
+       <!-- убийства -->
+      <div class="kill-flex-wrapper">
+        <div class="kill-player-wrapper">
+          <p class="kill-txt-player green-txt">Nickname </p>
+          <img src="/img/kill-icon.png" alt="kill" class="kill-icon">
+          <p class="kill-txt-player yellow-txt">Nickname </p>
+        </div>
+        <div class="kill-player-wrapper">
+          <p class="kill-txt-player green-txt">Nickname </p>
+          <img src="/img/kill-icon.png" alt="kill" class="kill-icon">
+          <p class="kill-txt-player yellow-txt">Nickname </p>
+        </div>
+      </div>
+      <!-- минирование class bomb разминирование - difuz взрыв- fire -->
+      <!-- минирование -->
+      <div style="display: none;" class="bomb-wrapper bomb">
+        <img src="/img/bomb-icon.png" alt="bomb" class="bomb-icon">
+        <p class="bomb-txt">Цифровое пламя установлено</p>
+      </div>
+      <!-- разминирование -->
+      <div style="display: none;" class="bomb-wrapper difuz">
+        <img src="/img/difuz.png" alt="bomb" class="bomb-icon">
+        <p class="bomb-txt">Цифровое пламя 
+          деактивировано</p>
+      </div>
+      <!-- взрыв -->
+      <div class="bomb-wrapper fire">
+        <img src="/img/fire.png" alt="bomb" class="bomb-icon">
+        <p class="bomb-txt">Цифровое пламя активировано</p>
       </div>
     </section>
   </main>
